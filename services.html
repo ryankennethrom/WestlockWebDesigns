@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Westlock Web Designs</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="services.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!-- ============================================ -->
+        <!--                 Navigation                   -->
+        <!-- ============================================ -->
+        
+        <header id="cs-navigation">
+            <div class="cs-container">
+                <!--Nav Logo-->
+                <a href="" class="cs-logo" aria-label="back to home">
+                    <img src="./images/bird.png" alt="logo" width="210" height="" aria-hidden="true" decoding="async">
+                </a>
+                <!--Navigation List-->
+                <nav class="cs-nav" role="navigation">
+                    <!--Mobile Nav Toggle-->
+                    <button class="cs-toggle" aria-label="mobile menu toggle">
+                        <div class="cs-box" aria-hidden="true">
+                            <span class="cs-line cs-line1" aria-hidden="true"></span>
+                            <span class="cs-line cs-line2" aria-hidden="true"></span>
+                            <span class="cs-line cs-line3" aria-hidden="true"></span>
+                        </div>
+                    </button>
+                    <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                    <div class="cs-ul-wrapper">
+                        <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                            <li class="cs-li">
+                                <a href="./index.html" class="cs-li-link">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="cs-li">
+                                <a href="" class="cs-li-link cs-active">
+                                    Services
+                                </a>
+                            </li>
+                            <li class="cs-li">
+                                <a href="./contact.html" class="cs-li-link">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- <a href="" class="cs-button-solid cs-nav-button">Contact Us</a> -->
+                <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+                <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+                            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+                            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+                        </button> -->
+            </div>
+        </header>
+
+        <!-- ============================================ -->
+        <!--                  Services                    -->
+        <!-- ============================================ -->
+        
+        <section id="services-448">
+            <div class="cs-container">
+                <ul class="cs-card-group">
+                    <li class="cs-item">
+                        <div class="cs-flex">
+                            <picture class="cs-wrapper">
+                                <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/tree.svg" alt="icon" width="70"
+                                    height="70">
+                            </picture>
+                            <h3 class="cs-h3">Standard</h3>
+                            <p class="cs-item-text">CA$150/month</p>
+                            <!--                   
+                                These "Micro Stitches" are to be placed inside the .cs-content group of Side By Side Stitches.  Typically after the .cs-title or .cs-text. They are used to add more design flair to a Stitch as well as convey more information in a different way.
+                            -->
+                            
+                            <ul id="list-1165" class="cs-ul">
+                                <li class="cs-li">Professional web designer</li>
+                                <li class="cs-li">Professional SEO copywriter</li>
+                                <li class="cs-li">Unlimited edits</li>
+                                <li class="cs-li">Mobile responsive</li>
+                                <li class="cs-li">No page builders</li>
+                                <li class="cs-li">Free domain name.</li>
+                                <li class="cs-li">Cancel anytime</li>
+                                <li class="cs-li">No contracts</li>
+                                <li class="cs-li">Freemium</li>
+                                <li class="cs-li">24/7 support</li>
+                                <li class="cs-li">Web hosting</li>
+                                <li class="cs-li">5 pages</li>
+                            </ul>
+                            <a href="./contact.html" class="cs-button-1" aria-label="read more about us">Get in touch !</a>
+                        </div>
+                        <picture class="cs-picture">
+                            <source media="(max-width: 600px)"
+                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/leaf.jpg">
+                            <source media="(min-width: 601px)"
+                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/leaf.jpg">
+                            <img aria-hidden="true" loading="lazy" decoding="async"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/leaf.jpg" alt="leaf" width="345"
+                                height="428">
+                        </picture>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!--                   Scripts                  -->
+        <!-- ============================================ -->
+        <script src="script.js"></script>
+        <!-- ============================================ -->
+        <!--                   Services                   -->
+        <!-- ============================================ -->
+        
+        <!-- <section id="h-services-143">
+                    <ul class="cs-card-group">
+                        <li class="cs-item">
+                            <picture class="cs-icon">
+                                <img loading="lazy" decoding="async" src="./images/check.png"
+                                    alt="icon" width="52" height="52" aria-hidden="true">
+                            </picture>
+                            <h2 class="cs-title">Professional Copywriter</h2>
+                            <p class="cs-text">
+                                A professional SEO copywriter will write your content.
+                            </p>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-icon">
+                                <img loading="lazy" decoding="async" src="./images/check.png"
+                                    alt="icon" width="52" height="52" aria-hidden="true">
+                            </picture>
+                            <h2 class="cs-title">Professional Designer</h2>
+                            <p class="cs-text">
+                                A professional designer will make your logos and website design.
+                            </p>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-icon">
+                                <img loading="lazy" decoding="async" src="./images/check.png"
+                                    alt="icon" width="52" height="52" aria-hidden="true">
+                            </picture>
+                            <h2 class="cs-title">Unlimited Edits</h2>
+                            <p class="cs-text">
+                                Unlimited edits on the website unless the request is too complex.
+                            </p>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-icon">
+                                <img loading="lazy" decoding="async" src="./images/check.png"
+                                    alt="icon" width="52" height="52" aria-hidden="true">
+                            </picture>
+                            <h2 class="cs-title">24/7 support</h2>
+                            <p class="cs-text">
+                                Contact us anytime for any problem, question, or request.
+                            </p>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-icon">
+                                <img loading="lazy" decoding="async" src="./images/check.png" alt="icon" width="52" height="52"
+                                    aria-hidden="true">
+                            </picture>
+                            <h2 class="cs-title">Web Hosting</h2>
+                            <p class="cs-text">
+                                We'll host your website for free.
+                            </p>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-icon">
+                                <img loading="lazy" decoding="async" src="./images/check.png" alt="icon" width="52" height="52"
+                                    aria-hidden="true">
+                            </picture>
+                            <h2 class="cs-title">Domain</h2>
+                            <p class="cs-text">
+                                Free domain name.
+                            </p>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-icon">
+                                <img loading="lazy" decoding="async" src="./images/check.png" alt="icon" width="52" height="52"
+                                    aria-hidden="true">
+                            </picture>
+                            <h2 class="cs-title">Cancel Anytime</h2>
+                            <p class="cs-text">
+                                You can cancel anytime. Your website will be terminated but you keep your domain name.
+                            </p>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-icon">
+                                <img loading="lazy" decoding="async" src="./images/check.png" alt="icon" width="52" height="52"
+                                    aria-hidden="true">
+                            </picture>
+                            <h2 class="cs-title">5 pages</h2>
+                            <p class="cs-text">
+                                Your website will contain a Home, About, Services, FAQ/Testimonials, and Contact page.
+                            </p>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-icon">
+                                <img loading="lazy" decoding="async" src="./images/check.png" alt="icon" width="52" height="52"
+                                    aria-hidden="true">
+                            </picture>
+                            <h2 class="cs-title">Google Profile</h2>
+                            <p class="cs-text">
+                                We'll help you set up your google profile.
+                            </p>
+                        </li>
+                    </ul>
+                </section> -->
+    </body>
+</html>
