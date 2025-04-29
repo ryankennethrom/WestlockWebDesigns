@@ -1,3 +1,7 @@
+## About
+
+Personal web design side hustle website repository
+
 ## Website Link
 
 https://westlock-web-designs.vercel.app/
